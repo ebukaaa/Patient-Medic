@@ -53,8 +53,8 @@ class MedicalDetail: Object {
     static var bodySubAreaURL = String()
     static var authenticationURL = "https://authservice.priaid.ch/" //"https://sandbox-authservice.priaid.ch/"
     static var healthURL = "https://healthservice.priaid.ch/" //"https://sandbox-healthservice.priaid.ch/"
-    static var username = "g9QXp_PROTONMAIL_COM_AUT" //"ebukaa@protonmail.com"
-    static var password = "z4M7Gtb5L9Tmo8JDx" //"j7KYz56Xmx3F2Pni8"
+//     static var username = 
+//     static var password = 
     static var language = "en-gb"
 }
 
