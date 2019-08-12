@@ -7,6 +7,13 @@
 //
 
 import UIKit
+import Firebase
+import RealmSwift
+
+// MARK:- Objects
+let realmFile = try! Realm()
+let firestore = Firestore.firestore()
+let patientsFirestore = firestore.collection("Patients")
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +22,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        //        TODO: initialise & config firebase
+        FirebaseApp.configure()
+        
+        let settings = FirestoreSettings()
+        settings.isPersistenceEnabled = true
+//        settings.cacheSizeBytes = FirestoreCacheSizeUnlimited
+        
+        firestore.settings = settings
+        
         return true
     }
 

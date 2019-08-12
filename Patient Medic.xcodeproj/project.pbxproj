@@ -7,21 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		714F992922C687D000183AF9 /* AppointmentsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714F992822C687D000183AF9 /* AppointmentsCell.swift */; };
+		714F992B22C6890400183AF9 /* EditProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714F992A22C6890400183AF9 /* EditProfile.swift */; };
+		7165C8AB22D21372007828C0 /* Symptoms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7165C8AA22D21372007828C0 /* Symptoms.swift */; };
+		7178FD5822CEE8B7007469DB /* Reset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7178FD5722CEE8B7007469DB /* Reset.swift */; };
+		7178FD5A22CF974E007469DB /* MedicalDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7178FD5922CF974E007469DB /* MedicalDetail.swift */; };
+		7178FD5C22CF9E7C007469DB /* Symptom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7178FD5B22CF9E7C007469DB /* Symptom.swift */; };
+		7178FD6022CFA4DF007469DB /* SelectBodyArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7178FD5F22CFA4DF007469DB /* SelectBodyArea.swift */; };
+		71AB060822D0FD8C00770281 /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AB060722D0FD8C00770281 /* HMAC.swift */; };
+		71BB60F122B410A700056DEB /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BB60F022B410A700056DEB /* Appointment.swift */; };
+		71BB60F522B4174B00056DEB /* Appointments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BB60F422B4174B00056DEB /* Appointments.swift */; };
+		71BB60F722B41D5600056DEB /* AppointmentDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BB60F622B41D5600056DEB /* AppointmentDetails.swift */; };
 		71DCB4EF22B267E10065F5CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DCB4EE22B267E10065F5CE /* AppDelegate.swift */; };
-		71DCB4F122B267E10065F5CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DCB4F022B267E10065F5CE /* ViewController.swift */; };
+		71DCB4F122B267E10065F5CE /* PatientAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DCB4F022B267E10065F5CE /* PatientAccount.swift */; };
 		71DCB4F422B267E10065F5CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71DCB4F222B267E10065F5CE /* Main.storyboard */; };
 		71DCB4F622B267E20065F5CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71DCB4F522B267E20065F5CE /* Assets.xcassets */; };
 		71DCB4F922B267E20065F5CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71DCB4F722B267E20065F5CE /* LaunchScreen.storyboard */; };
+		71DCB50422B26A030065F5CE /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DCB50322B26A030065F5CE /* Patient.swift */; };
+		71DCB50722B287610065F5CE /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DCB50622B287610065F5CE /* SignUp.swift */; };
+		71DCB50922B38A570065F5CE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 71DCB50822B38A570065F5CE /* GoogleService-Info.plist */; };
+		71DCB50B22B3B0BB0065F5CE /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DCB50A22B3B0BB0065F5CE /* Menu.swift */; };
+		E7798F98EAF8D181E90DBA51 /* Pods_Patient_Medic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E6F3B2C4BBB813C71295AF0 /* Pods_Patient_Medic.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E6F3B2C4BBB813C71295AF0 /* Pods_Patient_Medic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Patient_Medic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		714F992822C687D000183AF9 /* AppointmentsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentsCell.swift; sourceTree = "<group>"; };
+		714F992A22C6890400183AF9 /* EditProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfile.swift; sourceTree = "<group>"; };
+		7165C8AA22D21372007828C0 /* Symptoms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symptoms.swift; sourceTree = "<group>"; };
+		7178FD5722CEE8B7007469DB /* Reset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reset.swift; sourceTree = "<group>"; };
+		7178FD5922CF974E007469DB /* MedicalDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalDetail.swift; sourceTree = "<group>"; };
+		7178FD5B22CF9E7C007469DB /* Symptom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symptom.swift; sourceTree = "<group>"; };
+		7178FD5F22CFA4DF007469DB /* SelectBodyArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectBodyArea.swift; sourceTree = "<group>"; };
+		71AB060622D0FC2300770281 /* PatientMedic-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PatientMedic-Bridging-Header.h"; sourceTree = "<group>"; };
+		71AB060722D0FD8C00770281 /* HMAC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMAC.swift; sourceTree = "<group>"; };
+		71BB60F022B410A700056DEB /* Appointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
+		71BB60F422B4174B00056DEB /* Appointments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appointments.swift; sourceTree = "<group>"; };
+		71BB60F622B41D5600056DEB /* AppointmentDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentDetails.swift; sourceTree = "<group>"; };
 		71DCB4EB22B267E10065F5CE /* Patient Medic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Patient Medic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71DCB4EE22B267E10065F5CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		71DCB4F022B267E10065F5CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		71DCB4F022B267E10065F5CE /* PatientAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientAccount.swift; sourceTree = "<group>"; };
 		71DCB4F322B267E10065F5CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		71DCB4F522B267E20065F5CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71DCB4F822B267E20065F5CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71DCB4FA22B267E20065F5CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71DCB50322B26A030065F5CE /* Patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
+		71DCB50622B287610065F5CE /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		71DCB50822B38A570065F5CE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		71DCB50A22B3B0BB0065F5CE /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Menu.swift; path = "Patient Medic/Controller/Menu.swift"; sourceTree = SOURCE_ROOT; };
+		828D22CE9997BFB92BCDAA2A /* Pods-Patient Medic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Patient Medic.release.xcconfig"; path = "Pods/Target Support Files/Pods-Patient Medic/Pods-Patient Medic.release.xcconfig"; sourceTree = "<group>"; };
+		983991744F218FC23BF3F6E3 /* Pods-Patient Medic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Patient Medic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Patient Medic/Pods-Patient Medic.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +64,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7798F98EAF8D181E90DBA51 /* Pods_Patient_Medic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		714F992722C685E800183AF9 /* AppointmentsTableViews */ = {
+			isa = PBXGroup;
+			children = (
+				71BB60F422B4174B00056DEB /* Appointments.swift */,
+				71BB60F622B41D5600056DEB /* AppointmentDetails.swift */,
+				714F992822C687D000183AF9 /* AppointmentsCell.swift */,
+			);
+			path = AppointmentsTableViews;
+			sourceTree = "<group>";
+		};
 		71DCB4E222B267E10065F5CE = {
 			isa = PBXGroup;
 			children = (
 				71DCB4ED22B267E10065F5CE /* Patient Medic */,
 				71DCB4EC22B267E10065F5CE /* Products */,
+				9DBBC4063DAFA94A3470A903 /* Pods */,
+				DE8EF3AE21C3283EDB3F47F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +103,68 @@
 			isa = PBXGroup;
 			children = (
 				71DCB4EE22B267E10065F5CE /* AppDelegate.swift */,
-				71DCB4F022B267E10065F5CE /* ViewController.swift */,
-				71DCB4F222B267E10065F5CE /* Main.storyboard */,
+				71AB060622D0FC2300770281 /* PatientMedic-Bridging-Header.h */,
+				71AB060722D0FD8C00770281 /* HMAC.swift */,
+				71DCB50522B26A210065F5CE /* Model */,
+				71DCB50122B268520065F5CE /* View */,
+				71DCB50022B268410065F5CE /* Controller */,
 				71DCB4F522B267E20065F5CE /* Assets.xcassets */,
-				71DCB4F722B267E20065F5CE /* LaunchScreen.storyboard */,
 				71DCB4FA22B267E20065F5CE /* Info.plist */,
+				71DCB50822B38A570065F5CE /* GoogleService-Info.plist */,
 			);
 			path = "Patient Medic";
+			sourceTree = "<group>";
+		};
+		71DCB50022B268410065F5CE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				71DCB4F022B267E10065F5CE /* PatientAccount.swift */,
+				71DCB50622B287610065F5CE /* SignUp.swift */,
+				71DCB50A22B3B0BB0065F5CE /* Menu.swift */,
+				714F992A22C6890400183AF9 /* EditProfile.swift */,
+				7178FD5722CEE8B7007469DB /* Reset.swift */,
+				714F992722C685E800183AF9 /* AppointmentsTableViews */,
+				7178FD5F22CFA4DF007469DB /* SelectBodyArea.swift */,
+				7165C8AA22D21372007828C0 /* Symptoms.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		71DCB50122B268520065F5CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				71DCB4F222B267E10065F5CE /* Main.storyboard */,
+				71DCB4F722B267E20065F5CE /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		71DCB50522B26A210065F5CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				71DCB50322B26A030065F5CE /* Patient.swift */,
+				71BB60F022B410A700056DEB /* Appointment.swift */,
+				7178FD5922CF974E007469DB /* MedicalDetail.swift */,
+				7178FD5B22CF9E7C007469DB /* Symptom.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9DBBC4063DAFA94A3470A903 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				983991744F218FC23BF3F6E3 /* Pods-Patient Medic.debug.xcconfig */,
+				828D22CE9997BFB92BCDAA2A /* Pods-Patient Medic.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DE8EF3AE21C3283EDB3F47F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E6F3B2C4BBB813C71295AF0 /* Pods_Patient_Medic.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +174,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71DCB4FD22B267E20065F5CE /* Build configuration list for PBXNativeTarget "Patient Medic" */;
 			buildPhases = (
+				58119DB3527E24D1F746AE93 /* [CP] Check Pods Manifest.lock */,
 				71DCB4E722B267E10065F5CE /* Sources */,
 				71DCB4E822B267E10065F5CE /* Frameworks */,
 				71DCB4E922B267E10065F5CE /* Resources */,
+				B0A77DE4A42BE1D9E58B3FBC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71DCB4F922B267E20065F5CE /* LaunchScreen.storyboard in Resources */,
+				71DCB50922B38A570065F5CE /* GoogleService-Info.plist in Resources */,
 				71DCB4F622B267E20065F5CE /* Assets.xcassets in Resources */,
 				71DCB4F422B267E10065F5CE /* Main.storyboard in Resources */,
 			);
@@ -130,13 +236,92 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		58119DB3527E24D1F746AE93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Patient Medic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0A77DE4A42BE1D9E58B3FBC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Patient Medic/Pods-Patient Medic-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeCellKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Patient Medic/Pods-Patient Medic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		71DCB4E722B267E10065F5CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71DCB4F122B267E10065F5CE /* ViewController.swift in Sources */,
+				71DCB4F122B267E10065F5CE /* PatientAccount.swift in Sources */,
+				71DCB50722B287610065F5CE /* SignUp.swift in Sources */,
+				714F992B22C6890400183AF9 /* EditProfile.swift in Sources */,
+				7178FD5C22CF9E7C007469DB /* Symptom.swift in Sources */,
+				71BB60F722B41D5600056DEB /* AppointmentDetails.swift in Sources */,
+				7165C8AB22D21372007828C0 /* Symptoms.swift in Sources */,
 				71DCB4EF22B267E10065F5CE /* AppDelegate.swift in Sources */,
+				71BB60F122B410A700056DEB /* Appointment.swift in Sources */,
+				71DCB50422B26A030065F5CE /* Patient.swift in Sources */,
+				71DCB50B22B3B0BB0065F5CE /* Menu.swift in Sources */,
+				7178FD5A22CF974E007469DB /* MedicalDetail.swift in Sources */,
+				7178FD5822CEE8B7007469DB /* Reset.swift in Sources */,
+				71AB060822D0FD8C00770281 /* HMAC.swift in Sources */,
+				71BB60F522B4174B00056DEB /* Appointments.swift in Sources */,
+				7178FD6022CFA4DF007469DB /* SelectBodyArea.swift in Sources */,
+				714F992922C687D000183AF9 /* AppointmentsCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +465,7 @@
 		};
 		71DCB4FE22B267E20065F5CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 983991744F218FC23BF3F6E3 /* Pods-Patient Medic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +477,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ebukaa.Patient-Medic";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Patient Medic/PatientMedic-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,6 +485,7 @@
 		};
 		71DCB4FF22B267E20065F5CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 828D22CE9997BFB92BCDAA2A /* Pods-Patient Medic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -309,6 +497,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ebukaa.Patient-Medic";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Patient Medic/PatientMedic-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

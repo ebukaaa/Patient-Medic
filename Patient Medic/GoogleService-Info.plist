@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>187612894418-dlph49i49q533kunh7vrhskqv0veqhth.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.187612894418-dlph49i49q533kunh7vrhskqv0veqhth</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAtswynGU7MnECWmfmBYYjJc1EIS2k-neM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>187612894418</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.ebukaa.Patient-Medic</string>
+	<key>PROJECT_ID</key>
+	<string>patient-medic</string>
+	<key>STORAGE_BUCKET</key>
+	<string>patient-medic.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:187612894418:ios:0a9853d00f62c596</string>
+	<key>DATABASE_URL</key>
+	<string>https://patient-medic.firebaseio.com</string>
+</dict>
+</plist>
